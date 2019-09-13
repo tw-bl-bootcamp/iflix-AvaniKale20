@@ -30,5 +30,13 @@ public class Response {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Response(int statusCode, String statusMsg) {
+		super();
+		this.statusCode = statusCode;
+		this.statusMsg = statusMsg;
+	}
+
+	
+
 }
 

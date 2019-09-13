@@ -31,3 +31,84 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+body{
+    letter-spacing: .01785714em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.i{
+  color: brown;
+  font-size: 60px;
+  }
+  .f{
+  color:greenyellow;
+  font-size: 48px;
+  }
+  .l{
+  color: blue;
+  font-size: 60px;
+  }
+  .i{
+  color: tomato;
+  font-size: 48px;
+  }
+  .x
+  {
+  color:green;
+  font-size: 60px;
+  }
+  
+  .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+    
+    }
+    .card
+{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 650px;
+height: 650px;
+border:solid black;
+padding: 75px
+}
+    
