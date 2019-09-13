@@ -1,6 +1,5 @@
 package com.thoughtworks.response;
 
-
 import org.springframework.stereotype.Component;
 
 @Component
@@ -36,7 +35,4 @@ public class Response {
 		this.statusMsg = statusMsg;
 	}
 
-	
-
 }
-
